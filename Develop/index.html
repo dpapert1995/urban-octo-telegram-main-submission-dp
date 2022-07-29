@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
+<title>
+    Horsien Social Solution Services
+</title>
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -8,7 +10,8 @@
 </head>
 
 <body>
-    <div class="header">
+    <!--Changed this <div> element to semantic <header> element. Kept class "header".-->
+    <header class = "header">
         <h1>Hori<span class="seo">seo</span>n</h1>
         <div>
             <ul>
@@ -23,9 +26,12 @@
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
+    </header>
+
+    <!--Changed this <div> element to semantic <section> element. Kept class "hero".-->
+    <section class="hero"></section>
+    <!--Changed this <div> element to semantic <section> element. Kept class "content".-->
+    <section class="content">
         <!--For all images in this div, added alt attributes as per accessibility requirements.-->
         <!--The SEO div lacked an id and so clicking it's header element did not scroll down the page. Added an id to remedy this.-->
         <div id = "search-engine-optimization" class="search-engine-optimization">
@@ -49,8 +55,9 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
-    <div class="benefits">
+    </section>
+    <!--Changed this <div> element to semantic <section> element. Kept class "benefits".-->
+    <section class="benefits">
         <div class="benefit-lead">
             <!--The image elements of this div are purely decorative, but I have included alt attributes anyway.-->
             <h3>Lead Generation</h3>
@@ -74,13 +81,14 @@
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </section>
+    <!--Changed this <div> element to semantic <footer> element. Kept class "footer".-->
+    <footer class = "footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
