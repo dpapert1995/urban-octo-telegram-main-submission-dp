@@ -11,7 +11,7 @@ A website that offers social media solutions.
 ![](01-html-css-git-homework-demo.png)
 
 ## Website
-https://lernantino.github.io/urban-octo-telegram-main-submission-dp/
+https://dpapert1995.github.io/urban-octo-telegram-main-submission-dp/
 
 ## Contribution
 Authors: Daniel Papert
